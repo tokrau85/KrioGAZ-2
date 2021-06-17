@@ -1,0 +1,67 @@
+body p {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1110px
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1110px
+    }
+}
+
+.main-head {
+    background-image: url("../img/fon.png");
+    height: 750px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.line-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.main-head .menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main-head a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-head .adress a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.text{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+}
+.text p{
+    font-size: 13px;
+    line-height: 22px;
+    color: #000000;
+}
+
+
+
+
+
