@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab2b6dc7-1cb9-4a17-8409-1968441c1501" name="Default Changelist" comment="" />
+    <list default="true" id="ab2b6dc7-1cb9-4a17-8409-1968441c1501" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +19,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1u27aF5bM8BOwNjXC4io9O24Mhd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,11 +50,33 @@
       <option name="presentableId" value="Default" />
       <updated>1623851907546</updated>
       <workItem from="1623851916113" duration="73000" />
-      <workItem from="1623918332349" duration="10788000" />
+      <workItem from="1623918332349" duration="21191000" />
     </task>
+    <task id="LOCAL-00001" summary="убрал пробел">
+      <created>1623935349354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623935349354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="убрал пробел" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал пробел" />
   </component>
 </project>

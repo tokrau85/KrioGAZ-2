@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>КриоГАЗ</title>
 </head>
+<body>
 <header>
     <div class="main-head" style="background-image: url('img/fon.png')">
         <div class="container">
@@ -38,20 +38,34 @@
         </div>
     </div>
 </header>
-<body>
-<div class="projeckt">
-    <div class="contaener">
-        <div class="col-3 projeckt-text" style="background: #E5E5E5; width: 65%; height: 650px">
-            <h3>ПРОЕКТЫ</h3>
-            <p>Крупнейшие реализованные проекты</p>
-            <img src="img/botle.jpg" alt="">
-            <div class="text">
-                <p>В начале 2007 года завершено строительство системы газификации СПГ СХПР-5-63/0,6-1000, входящей в
-                    состав комплекса энергоснабжения Терминала по перегрузки светлых нефтепродуктов в Морском торговом
-                    порту г. Приморск.</p>
+<div class="projects">
+    <div class="container">
+        <div class="slider-content">
+            <div class="slider-header">
+                <h2>ПРОЕКТЫ</h2>
+                <span>Крупнейшие реализованные проекты</span>
+            </div>
+            <div class="swiper-container">
+                <div class="sliders swiper-wrapper">
+                    <div class="slide swiper-slide">
+                        <p>В начале 2007 года завершено строительство системы газификации СПГ
+                            СХПР-5-63/0,6-1000, входящей в состав
+                            комплекса энергоснабжения Терминала по перегрузки светлых нефтепродуктов в Морском торговом
+                            порту г.
+                            Приморск.</p>
+                        <img src="img/botle.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slider-arrows">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

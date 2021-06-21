@@ -1,4 +1,4 @@
-body p {
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -51,15 +51,89 @@ body p {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
-.text{
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20px;
 }
-.text p{
+.subtitle {
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+}
+
+/*--------------------head-----------------------------------------*/
+/*--------------------Project slider Start-----------------------------------------*/
+.projects {
+    padding: 100px 0;
+    background: linear-gradient(to right, #E5E5E5 60%, #ffffff 40%);
+    background-size: 100%;
+    background-position: left bottom;
+}
+.slider-content {
+    margin: 0 50px;
+}
+.slide {
+    position: relative;
+    padding: 100px 0;
+    margin-top: 80px;
+}
+.slide p{
+    padding: 30px 40px 40px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    width: 46%;
+    font-weight: normal;
     font-size: 13px;
     line-height: 22px;
-    color: #000000;
+    font-family: 'Montserrat', sans-serif;
 }
+.slide img {
+    position: absolute;
+    right: 0;
+    top: -50%;
+    transform: translate(-33%,25%);
+}
+.swiper-container {
+    margin-top: -80px;
+}
+.slider-arrows {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.slider-arrows .swiper-button-next, .slider-arrows .swiper-button-prev {
+    position: initial;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #585858;
+    opacity: 0.4;
+}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    font-size: 16px;
+}
+/*--------------------Project slider End-----------------------------------------*/
+/*--------------------NEWS START-----------------------------------------*/
+.news {
+    padding: 100px 0;
+    background: linear-gradient(to right, #E5E5E5 40%, #ffffff 60%);
+    background-size: 100%;
+    background-position: left bottom;
+}
+/*--------------------NEWS End-----------------------------------------*/
 
 
 
